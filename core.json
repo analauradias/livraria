@@ -1,0 +1,169 @@
+[
+{
+  "model": "uploader.image",
+  "pk": 1,
+  "fields": {
+    "attachment_key": "b49ab41f-cebb-42fe-86bf-d84583a25dfc",
+    "public_id": "e00b6436-2863-4335-8564-004dc7c3e11f",
+    "file": "images/e00b6436-2863-4335-8564-004dc7c3e11f.jpg",
+    "description": "",
+    "uploaded_on": "2025-05-23T17:53:46.118Z"
+  }
+},
+{
+  "model": "core.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$FmzwQ1d8oXtyZj97qAXtTD$PkiSGeZUMDlbD/F6RAoORMw61bbbR0Qr7YitSuX0jvo=",
+    "last_login": "2025-05-23T17:56:16.715Z",
+    "is_superuser": true,
+    "passage_id": "324321544235435",
+    "email": "a@a.com",
+    "name": "Superusuário",
+    "is_active": true,
+    "is_staff": true,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "core.user",
+  "pk": 2,
+  "fields": {
+    "password": "!guOeigiAEXjwTck0ZQ9oI58VjCo7jdEJhTzzyREJ",
+    "last_login": null,
+    "is_superuser": false,
+    "passage_id": "hdxkeqXbF8bp1Ql3dNJ0PoTB",
+    "email": "marcoandre@gmail.com",
+    "name": null,
+    "is_active": true,
+    "is_staff": false,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "core.categoria",
+  "pk": 1,
+  "fields": {
+    "descricao": "terror"
+  }
+},
+{
+  "model": "core.categoria",
+  "pk": 3,
+  "fields": {
+    "descricao": "romance"
+  }
+},
+{
+  "model": "core.categoria",
+  "pk": 4,
+  "fields": {
+    "descricao": "fantasia"
+  }
+},
+{
+  "model": "core.editora",
+  "pk": 1,
+  "fields": {
+    "nome": "Paralela",
+    "site": ""
+  }
+},
+{
+  "model": "core.autor",
+  "pk": 1,
+  "fields": {
+    "nome": "Elayne Baeta",
+    "email": null
+  }
+},
+{
+  "model": "core.autor",
+  "pk": 2,
+  "fields": {
+    "nome": "Jane Austen",
+    "email": "janefofinha1800@gmail.com"
+  }
+},
+{
+  "model": "core.autor",
+  "pk": 3,
+  "fields": {
+    "nome": "Jane Austen",
+    "email": "janefofinha1800@gmail.com"
+  }
+},
+{
+  "model": "core.autor",
+  "pk": 4,
+  "fields": {
+    "nome": "Fiódor Dostoiévski",
+    "email": "tolstoifiodorzinho1800@gmail.com"
+  }
+},
+{
+  "model": "core.livro",
+  "pk": 1,
+  "fields": {
+    "titulo": "O morro dos ventos uivantes",
+    "isbn": null,
+    "quantidade": 3,
+    "preco": "59.90",
+    "categoria": null,
+    "editora": null,
+    "capa": null,
+    "autores": []
+  }
+},
+{
+  "model": "core.livro",
+  "pk": 2,
+  "fields": {
+    "titulo": "Battle Royale",
+    "isbn": null,
+    "quantidade": 10,
+    "preco": "59.90",
+    "categoria": 1,
+    "editora": 1,
+    "capa": null,
+    "autores": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "core.livro",
+  "pk": 3,
+  "fields": {
+    "titulo": "Alice no país das maravilhas",
+    "isbn": null,
+    "quantidade": 3,
+    "preco": "40.00",
+    "categoria": 4,
+    "editora": 1,
+    "capa": null,
+    "autores": [
+      2
+    ]
+  }
+},
+{
+  "model": "core.livro",
+  "pk": 4,
+  "fields": {
+    "titulo": "Noites brancas",
+    "isbn": null,
+    "quantidade": 1,
+    "preco": "40.00",
+    "categoria": 3,
+    "editora": 1,
+    "capa": 1,
+    "autores": [
+      4
+    ]
+  }
+}
+]
