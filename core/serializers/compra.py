@@ -7,8 +7,8 @@ from rest_framework.serializers import CharField, ModelSerializer
 class ItensCompraSerializer(ModelSerializer):
     class Meta:
         model = ItensCompra
-        fields = '__all__'
-
+        fields = ('livro', 'quantidade')
+        
 class CompraSerializer(ModelSerializer):
     class Meta:
         model = Compra
